@@ -4,6 +4,7 @@ PyTrios
 PyTrios 모듈은 TriOS 광학 센서와 시리얼 포트로 통신이 가능합니다.
 
 지원 : 
+
 -RAMSES SAM과 SAMIP 계열의 센서들(spectrometer 모듈만 해당하면 inclination/pressure 데이터는 현재 지원하지 않음)
 
 -MicroFlu 센서(예로 Chl, PC, CDOM)
