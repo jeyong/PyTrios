@@ -27,4 +27,4 @@ PyTrios 모듈은 TriOS 광학 센서와 시리얼 포트로 통신이 가능합
 
 ----
 관련 문서 :
- * [](http://www.trios.de/index.php?eID=tx_nawsecuredl&u=0&g=0&t=1506217611&hash=32d2f0765b5cc3c2fbfa1fcf86f7951b3e41d726&file=uploads/tx_cccascatalog/files/d02-010en201704_brochure_ramses.pdf)
+ * [TriOS RAMSES ](http://www.trios.de/index.php?eID=tx_nawsecuredl&u=0&g=0&t=1506217611&hash=32d2f0765b5cc3c2fbfa1fcf86f7951b3e41d726&file=uploads/tx_cccascatalog/files/d02-010en201704_brochure_ramses.pdf)
