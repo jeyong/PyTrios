@@ -28,3 +28,21 @@ PyTrios 모듈은 TriOS 광학 센서와 시리얼 포트로 통신이 가능합
 ----
 관련 문서 :
  * [TriOS RAMSES ](http://www.trios.de/index.php?eID=tx_nawsecuredl&u=0&g=0&t=1506217611&hash=32d2f0765b5cc3c2fbfa1fcf86f7951b3e41d726&file=uploads/tx_cccascatalog/files/d02-010en201704_brochure_ramses.pdf)
+
+----
+실행 : 
+ * Rrs_example.py
+   * __main__
+     * Listen : 인자로 전달한 COM Port에서 listen
+     * Query : ps.TCommandSend(query)를 이용해 query
+     * loop
+
+ * Query
+   * ps.TCommandSend(query)를 이용해 query 전달
+
+ * Packet Receive
+   * TListen()
+     * s2parse = _get_s2parse() //serial에서 stream 수신
+     * packet = TPacket(s2parse) // packet으로 변환
+     * handlePacket //packet 처리
+
